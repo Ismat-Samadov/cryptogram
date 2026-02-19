@@ -411,8 +411,8 @@ travel_data_analyse/
 │   ├── eps_analysis.py
 │   ├── deep_dive_analysis.py
 │   ├── fix_charts.py
-│   └── final_chart_fixes.py
-├── travel_data_analysis.ipynb  # Jupyter notebook
+│   ├── final_chart_fixes.py
+│   └── travel_data_analysis.py # Converted notebook analysis script
 ├── .env                        # Database configuration
 └── README.md                   # This file
 
