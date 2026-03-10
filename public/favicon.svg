@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="6" fill="#020818"/>
+
+  <!-- Circuit grid lines (subtle) -->
+  <line x1="0" y1="8"  x2="32" y2="8"  stroke="#06b6d4" stroke-width="0.3" opacity="0.3"/>
+  <line x1="0" y1="16" x2="32" y2="16" stroke="#06b6d4" stroke-width="0.3" opacity="0.3"/>
+  <line x1="0" y1="24" x2="32" y2="24" stroke="#06b6d4" stroke-width="0.3" opacity="0.3"/>
+  <line x1="8"  y1="0" x2="8"  y2="32" stroke="#06b6d4" stroke-width="0.3" opacity="0.3"/>
+  <line x1="16" y1="0" x2="16" y2="32" stroke="#06b6d4" stroke-width="0.3" opacity="0.3"/>
+  <line x1="24" y1="0" x2="24" y2="32" stroke="#06b6d4" stroke-width="0.3" opacity="0.3"/>
+
+  <!-- Border glow ring -->
+  <rect x="1" y="1" width="30" height="30" rx="5.5" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.6"/>
+
+  <!-- Cipher letter top row (encrypted) -->
+  <text x="4"  y="13" font-family="'Courier New',monospace" font-size="7" font-weight="bold" fill="#64748b">X</text>
+  <text x="11" y="13" font-family="'Courier New',monospace" font-size="7" font-weight="bold" fill="#64748b">K</text>
+  <text x="18" y="13" font-family="'Courier New',monospace" font-size="7" font-weight="bold" fill="#64748b">Z</text>
+  <text x="25" y="13" font-family="'Courier New',monospace" font-size="7" font-weight="bold" fill="#64748b">Q</text>
+
+  <!-- Arrow down (decoding) -->
+  <line x1="16" y1="14" x2="16" y2="18" stroke="#ec4899" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="13,17 16,21 19,17" fill="#ec4899"/>
+
+  <!-- Decoded letter bottom row -->
+  <text x="4"  y="28" font-family="'Courier New',monospace" font-size="7" font-weight="bold" fill="#06b6d4">T</text>
+  <text x="11" y="28" font-family="'Courier New',monospace" font-size="7" font-weight="bold" fill="#22c55e">H</text>
+  <text x="18" y="28" font-family="'Courier New',monospace" font-size="7" font-weight="bold" fill="#06b6d4">E</text>
+  <text x="25" y="28" font-family="'Courier New',monospace" font-size="7" font-weight="bold" fill="#22c55e">!</text>
+</svg>
